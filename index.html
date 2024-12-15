@@ -6,19 +6,19 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="aaa">
+    <div class="picture-container">
       <img src="./eisenhower-matrix.jpg">
       <a
-        class="more-inf"
+        class="more-information-link"
         href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
       </a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list">
+    <div class="form-container">
+      <p id="add-item">
         <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task" type="text">
+        <div class="add-item-text">
+          <input id="new-task" class="input-task" type="text">
           <button>Add</button>
         </div>
       </p>
@@ -26,8 +26,8 @@
       <ul id="incomplete-tasks">
         <li>
           <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+          <label class="label-task">Pay Bills</label>
+          <input type="text" class="input-task">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg">
@@ -35,8 +35,8 @@
         </li>
         <li class="edit-mode">
           <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="go shopping" class="task">
+          <label class="label-task">Go Shopping</label>
+          <input type="text" value="go shopping" class="input-task">
           <button class="edit">Save</button>
           <button class="delete">
             <img src="./remove.svg">
@@ -47,8 +47,8 @@
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+          <label class="label-task">See the Doctor</label>
+          <input type="text" class="input-task">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg">
