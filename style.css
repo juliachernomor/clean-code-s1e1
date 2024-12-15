@@ -13,7 +13,7 @@ body {
 .picture-container img {
   width: 100%;
 }
-picture-container .more-information-link {
+.picture-container .more-information-link {
   font-family: fantasy, cursive;
 }
 
@@ -33,7 +33,7 @@ picture-container .more-information-link {
   display: inline-block;
   flex-grow: 1
 }
-.add-item-text {
+.add-text {
   display: flex;
 }
 ul {
