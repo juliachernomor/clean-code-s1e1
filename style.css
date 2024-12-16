@@ -12,12 +12,12 @@ ul {
 
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,
 button {
-  outline:none;
+  outline: none;
 }
 
 .picture-container {
@@ -154,7 +154,7 @@ button {
 
 /*Edit Task */
 .input:not(.input--new-task) {
-  display:none;
+  display: none;
 }
 
 .edit-mode .input {
@@ -163,5 +163,5 @@ button {
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
